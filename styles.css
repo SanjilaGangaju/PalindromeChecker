@@ -41,6 +41,7 @@ body {
   border-radius: 8px;
   border: none;
   color: #0b0404;
+  cursor: pointer;
   
   
 }
@@ -50,4 +51,4 @@ body {
   align-items: center;
   justify-content: center;
   color: rgb(153, 84, 84);
- 
+}
