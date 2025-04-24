@@ -52,3 +52,6 @@ body {
   justify-content: center;
   color: rgb(153, 84, 84);
 }
+.active{
+  display: none;
+}

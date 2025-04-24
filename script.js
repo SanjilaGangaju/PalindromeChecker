@@ -5,6 +5,7 @@ checkButton.addEventListener("click",() =>{
     let inputValue = inputString.value;
     let inputArray=inputValue.split("");
     let reverseString= inputArray.reverse().join("");
+    resultDisplay.classList.remove("active");
     if (reverseString===inputValue){
         resultDisplay.style.color="green";
         resultDisplay.innerText=`Hola! ${inputValue} is a Palindrome.`;
